@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Triangles</title>
+
+    <link rel="stylesheet" href="QuizStyle.css">
+
+    <style>
+                 
+                 .btn-grad {
+            background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+    </style>
+</head>
+<body>
+
+  <div class="navigation">
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <h1 class="navhead" style="font-family: 'Times New Roman', Times, serif;"><a class="navbar-brand" href="./index.html">Fun With Tirangles</a></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+               <button><a class="nav-link "  href="./IsTriangle.html">Is Triangle?</a></button>
+              </li>
+              <li class="nav-item">
+                <button><a class="nav-link" href="./Area.html">Calcualte Area</a></button> 
+              </li>
+              <li class="nav-item">
+                <button><a class="nav-link" href="./Hypt.html">Calcualte Hypt</a></button> 
+              </li>
+              <li class="nav-item">
+                <button><a class="nav-link" href="./Quiz.html">Quiz</a></button>   
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ending of navigation tag -->
+  </div>
+    <center>
+        <div class="qplusi">
+
+
+    <center class="main">
+
+        <div class="tri-img">
+            <img src="./hp-triangolo.gif" alt="Triangle image" style="width: 40%;">
+            <h1 class="heading" style="font-family:cursive">Fun With <br> Triangles</h1>
+            
+        </div>
+
+    <center>
+        <form class="quizForm">
+
+        
+        <div class="question1" id="question1">
+            <h6 >1) In triangle ABC, if AB=BC and ∠B = 70°, ∠A will be:</h6>
+            <label for=""><input type="radio" value="70°" name="question1"/>70°</label>
+            <label for=""><input type="radio" value="110°" name="question1"/>110°</label>
+            <label for=""><input type="radio" value="55°" name="question1"/>55°</label>
+            <label for=""><input type="radio" value="130°" name="question1"/>130°</label>
+            <!-- ans:c -->
+        </div>
+
+        <div class="question2" id="question2">
+            <h6 >2)  A triangle in which two sides are equal is called:</h6>
+            <label for=""><input type="radio" value="Scalene triangle" name="question2"/>Scalene triangle    </label>
+            <label for=""><input type="radio" value="Equilateral triangle" name="question2"/>Equilateral triangle   </label>
+            <label for=""><input type="radio" value="Isosceles triangle" name="question2"/>Isosceles triangle     </label>
+            <label for=""><input type="radio" value="None of the above" name="question2"/>None of the above      </label>
+            <!-- ans: c -->
+        </div>
+
+        <div class="question3" id="question3">
+            <h6 >3) The angles opposite to equal sides of a triangle are:</h6>
+            <label for=""><input type="radio" value="Equal" name="question3"/>Equal</label>
+            <label for=""><input type="radio" value="Unequal" name="question3"/>Unequal</label>
+            <label for=""><input type="radio" value="supplementary angles" name="question3"/>supplementary angles</label>
+            <label for=""><input type="radio" value="Complementary angles" name="question3"/>Complementary angles</label>
+            <!-- ans : a -->
+        </div>
+
+        <div class="question4" id="question4">
+            <h6 >4)  If ABC is an equilateral triangle, then each angle equals to:</h6>
+            <label for=""><input type="radio" value="90°" name="question4"/>90°</label>
+            <label for=""><input type="radio" value="180°" name="question4"/>180°</label>
+            <label for=""><input type="radio" value="120°" name="question4"/>120°</label>
+            <label for=""><input type="radio" value="60°" name="question4"/>60°</label>
+            <!-- ans : d -->
+        </div>
+
+        <div class="question5" id="question5">
+            <h6 >5) Which of the following is not a criterion for congruence of triangles?</h6>
+            <label for=""><input type="radio" value="SAS" name="question5"/>SAS</label>
+            <label for=""><input type="radio" value="ASA" name="question5"/>ASA</label>
+            <label for=""><input type="radio" value="SSA" name="question5"/>SSA</label>
+            <label for=""><input type="radio" value="SSS" name="question5"/>SSS</label>
+            <!-- ans : c -->
+        </div>
+
+    </form>
+
+    <button type="button" class="btn-grad" id="btnSubmit">Submit</button>
+        
+    <h4 class="outputArea" style="font-family: cursive;
+    color: rgb(121, 2, 121);
+    margin-top: 2rem;">
+
+        </h4>
+
+        <!-- <div class="navigation1">
+
+end of navigation1
+</div>
+           -->
+        </center>
+          <!-- ending of main div tag -->
+     </div>  
+    
+    </div>   
+
+    </center>
+    
+    <pre>
+
+    </pre>
+
+    <div class="footer1">
+
+      <footer class="bg-light text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                  <!-- Facebook -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                      role="button"><i class="fab fa-facebook-f"></i></a>
+
+                  <!-- Twitter -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                      role="button"><i class="fab fa-twitter"></i></a>
+
+                  <!-- Google -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                      role="button"><i class="fab fa-google"></i></a>
+
+                  <!-- Instagram -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                      role="button"><i class="fab fa-instagram"></i></a>
+
+                  <!-- Linkedin -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                      role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <!-- Github -->
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                      role="button"><i class="fab fa-github"></i></a>
+              </section>
+              <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div> -->
+          <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- <link rel="stylesheet" href="./script.js"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://mdbootstrap.com/docs/standard/navigation/footer/"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <script src="./QuizJs.js"></script>
+</body>
+</html>

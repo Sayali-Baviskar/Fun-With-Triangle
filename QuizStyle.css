@@ -1,0 +1,157 @@
+:root{
+    --pink:linear-gradient(171.45deg, rgba(255, 0, 184, 0.54) -18.57%, #7306A7 68.11%);
+}
+
+.tri-img{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    margin-top: 4rem;
+}
+
+button{
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    /* color: white; */
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-item, .navbar-nav, .navbar, .navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* color: white; */
+    /* font-display:   */
+   
+}
+.navbar-brand{
+    color: white;
+}
+.navbar{
+    background: linear-gradient(171.45deg, rgba(255, 0, 184, 0.54) -18.57%, #7306A7 68.11%);;
+    /* color: white; */
+    border-bottom-left-radius: 12px;
+
+}
+.navigation{
+    /* background: linear-gradient(171.45deg, rgba(255, 0, 184, 0.54) -18.57%, #7306A7 68.11%);; */
+    width: 80%;
+    /* justify-content: center; */
+    margin-left: 6rem;
+}
+.navigation1{
+    /* background: linear-gradient(171.45deg, rgba(255, 0, 184, 0.54) -18.57%, #7306A7 68.11%);; */
+    width: 80%;
+    /* justify-content: center; */
+    margin-left: 9rem;
+}
+
+.main{
+    background-color: white;
+    /* width: 60%; */
+    margin-top: 1rem;
+    border-radius: 12px;
+    padding-bottom: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card{
+    /* margin-right: 1rem;
+    margin-left: 1rem; */
+    margin-bottom: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+}
+.footer1, footer{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding-bottom: 1rem;
+}
+
+.navhead{
+    color: white;
+}
+
+.qplusi{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.question1{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.question2{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.question3{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.question4{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.question5{
+    width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+h6{
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+label{
+    font-family: cursive;
+
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-weight: 550; */
+    color: rgb(42, 42, 42);
+    font-size: small;
+    margin-right: 1rem;
+}
+input{
+    padding-left: 1rem;
+}
+
+h4{
+    margin-top: 2rem;
+    font-family: cursive;
+    color: rgb(121, 2, 121);
+}
